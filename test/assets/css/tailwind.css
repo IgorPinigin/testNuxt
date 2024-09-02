@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-table-shadow{
+    box-shadow: 0px 0px 15px 0px #00000038;
+}
+@layer base{
+    * { 
+        scrollbar-width: none;
+      }
+      
+      /* для Chrome/Edge/Safari */
+      *::-webkit-scrollbar {
+        width: 0px;
+      }
+      *::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      *::-webkit-scrollbar-thumb {
+
+      }
+    }
